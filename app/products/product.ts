@@ -8,4 +8,3 @@ export class IProduct {
     starRating: number;
     imageUrl: string;
 }
-
