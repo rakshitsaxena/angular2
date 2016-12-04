@@ -12,6 +12,7 @@ import { WelcomeComponent }  from './home/welcome.component';
     BrowserModule, 
     HttpModule,
     RouterModule.forRoot([
+      //configure default and wildcard routes
       {path:'welcome', component: WelcomeComponent},
       {path:'', redirectTo:'welcome', pathMatch:'full'},
       {path:'**', redirectTo:'welcome', pathMatch:'full'}
